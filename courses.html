@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f9b56bca66.js"></script>
+    <title>AIMT</title>
+    <style type="text/css">
+    .brd
+    {
+      border: 3px solid green;
+    }
+    .space
+    {
+      word-spacing: 3px;
+      font-size: 21px;
+      letter-spacing: 2px;
+    }
+    .calibri
+    {
+      font-family: calibri;
+    }
+    .width
+     {
+       width: 100%;
+       height: 120%;
+     }
+     body
+     {
+       background: linear-gradient(to left, #16222a, #3a6073);
+     }
+     .brand-name
+     {
+       font-size: 24px;
+       letter-spacing: 4px;
+     }
+     .bgr
+     {
+       background: linear-gradient(to bottom, #e6dada, #274046);
+     }
+
+     .bgr1
+     {
+       color: white;
+       background: linear-gradient(to left, #16222a, #3a6073);
+     }
+
+      .bgr2
+      {
+        background: linear-gradient(to right, #bdc3c7, #2c3e50);
+      }
+
+      .bgr3
+      {
+        color: black;
+        background: linear-gradient(to right, #f7f8f8, #acbb78);
+      }
+
+
+    </style>
+
+<body>
+
+  <!--Starting of navbar-->
+  <nav class="navbar navbar-dark bgr1 navbar-expand-md">
+     <a href="#" class="navbar-brand brand-name">
+      <img src="http://www.aimt.edu.in/wp-content/uploads/2016/04/ambalika-home-logo-300x291.png" width="40px" alt="" class="img-responsive">
+      AIMT
+    </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse space" id="nav">
+          <ul class="navbar-nav ml-auto ">
+            <li class="nav-item pr-3 ">
+              <a href="index.html" class="nav-link active"><i class="fa fa-home fa-fw" aria-hidden="true"></i></i> Home</a>
+            </li>
+
+            <li class="nav-item pr-4 ">
+              <a href="courses.html" class="nav-link active"><i class="fas fa-graduation-cap"></i> Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="fee-structure.html" class="nav-link active"><i class="fas fa-coins"></i> Fee Structure</a>
+            </li>
+
+            <li class="nav-item pr-4 ">
+              <a href="#loginModal" class="nav-link active" data-toggle="modal" data-target="#loginModal"><i class="fas fa-sign-in-alt"></i> Login
+
+                <div class="modal fade" role="dialog" id="loginModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                           <form class="px-3 py-4" action="login.php" method="post">
+                           <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <a href="#loginModal"class="text-danger" >Login Here</a>
+              <div class="form-group mb-4">
+
+                <input type="text" class="form-control mt-4" name="email" placeholder="Enter email">
+              </div>
+              <div class="form-group mb-4">
+
+                <input type="password" class="form-control" name="password" placeholder="Enter Password">
+              </div>
+              <div class="form-check mb-4">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label h6"for="dropdownCheck">
+                  I agreed
+                </label>
+              </div>
+              <button type="submit" class="btn btn-danger">Login</button>
+            </form>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item h6" href="signIn.html">Login if ? Already registered</a>
+            <a class="dropdown-item mb-3 h6" href="#loginModal1">Not registered yet?</a>
+                        </div>
+                    </div>
+                </div>
+
+              </a>
+            </li>
+
+
+            <li class="nav-item pr-4 ">
+              <a href="#loginModal1" class="nav-link active" data-toggle="modal" data-target="#loginModal1"><i class="fab fa-buffer"></i> Regsiter
+
+                <div class="modal fade" role="dialog" id="loginModal1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                           <form class="px-3 py-4" action="login.php" method="post">
+                           <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <a href="#loginModal1" class="text-danger" >Register Here</a>
+              <div class="form-group mb-4">
+
+                <input type="text" class="form-control mt-4" name="email" placeholder="Enter email">
+              </div>
+              <div class="form-group mb-4">
+
+                <input type="password" class="form-control" name="password" placeholder="Enter Password">
+              </div>
+              <div class="form-check mb-4">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label h6"for="dropdownCheck">
+                  I agreed
+                </label>
+              </div>
+              <button type="submit" class="btn btn-danger">Register</button>
+            </form>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item h6" href="signIn.html">Login if ? Already registered</a>
+            <a class="dropdown-item mb-3 h6" href="#loginModal1">Not registered yet?</a>
+                        </div>
+                    </div>
+                </div>
+
+              </a>
+            </li>
+
+            <li class="nav-item pr-4 ">
+              <a href="#loginModal2" class="nav-link active" data-toggle="modal" data-target="#loginModal2"><i class="fab fa-quora"></i>uery
+
+                <div class="modal fade" role="dialog" id="loginModal2">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                           <form class="px-3 py-3" action="login.php" method="post">
+                           <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <a href="#loginModal2"class="text-danger" >Drop <i class="fab fa-quora"></i>uery Here</a>
+              <div class="form-group mb-4">
+
+                <input type="text" class="form-control mt-4" name="name" placeholder="Enter your name">
+              </div>
+              <div class="form-group mb-4">
+
+                <input type="text-area" class="form-control" name="query" placeholder="write your quey here......">
+              </div>
+
+              <button type="submit" class="btn btn-danger">Send</button>
+            </form>
+                    </div>
+                </div>
+
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link active"><i class="fas fa-phone-volume"></i> +91 8726514762</a>
+            </li>
+
+
+          </ul>
+
+
+
+    </div>
+  </nav>
+
+  <!--Ending of navbar-->
+
+
+
+   <div class="container my-5">
+    <div class="card-columns mb-4 shadow-sm">
+                <div class="card bgr3 rounded">
+                    <img class="card-img-top img-fluid" src="https://us.123rf.com/450wm/gow27/gow271602/gow27160200056/52658983-stock-vector-mechanical-electrical-civil-chemical-and-other-engineering-education-profession-chalk-handwriting-do.jpg?ver=6" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Bachelor Of Technology</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis et rerum sit, molestias non sed rem quae voluptas facilis maxime.</p>
+
+                    </div>
+                </div>
+                <div class="card bgr3 rounded">
+                    <img class="card-img-top img-fluid" src="https://us.123rf.com/450wm/rastudio/rastudio1708/rastudio170803224/83918510-stock-vector-caucasian-oil-worker-in-uniform-and-helmet-confident-oil-worker-standing-with-crossed-arms-smiling-o.jpg?ver=6" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Master Of Technology</h4>
+                        <p class="card-text">Lorem dipisicing elit. Ex iusto earum accusamus ratione doloremque amet, eos neque, corporis obcaecati sadasd asdasd asd ad doloribus.</p>
+                    </div>
+                </div>
+
+                <div class="card bgr3 rounded">
+                    <img class="card-img-top img-fluid" src="https://us.123rf.com/450wm/rastudio/rastudio1602/rastudio160202607/52295571-stock-vector-an-african-american-woman-in-helmet-standing-with-crossed-arms-on-an-oil-derrick-background-vector-f.jpg?ver=6" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Master Of Bussiness Administration </h4>
+                        <p class="card-text">This is a longer cardasss wilorem sad ipsum dolor sit. Lorem ipsum dolor sit. Lorem ipsum dolor..</p>
+                    </div>
+                </div>
+
+
+
+
+                </div>
+
+
+                <div class="card-columns mb-4 shadow-sm">
+                            <div class="card bgr3 rounded">
+                                <img class="card-img-top img-fluid" src="http://epctraining.com/wp-content/uploads/2018/01/Process-engineering-450x450.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">M.B.B.S</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque vitae perspiciatis fugit magni alias a cupiditate eveniet blanditiis, tenetur consectetur!</p>
+                                </div>
+                            </div>
+
+                            <div class="card bgr3 rounded">
+                                <img class="card-img-top img-fluid" src="https://auburnhospital.org/programs-services/laboratory/ach-laboratory/" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">B.Pharma</h4>
+                                    <p class="card-text">This is a longer card with Lorem ipsum dolor sit. Lorem ipsum dolor sit amet. supporting text below as a natural lead to additional contentipsum. </p>
+                                </div>
+                            </div>
+                            <div class="card bgr3 rounded">
+                                <img class="card-img-top img-fluid" src="http://studyinphil.com/wp-content/uploads/2017/04/Manufacturing_Engineering.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Master in Science</h4>
+                                    <p class="card-text">This is a longer with supporting text below as a natural Lorem ipsum dolor. Lorem ipsum dolor sit.. This content
+                                        is a little bit longer.</p>
+                                </div>
+                            </div>
+
+
+
+                </div>
+
+                <div class="card-columns mb-4 shadow-sm">
+                            <div class="card bgr3 rounded">
+                                <img class="card-img-top img-fluid" src="https://ecdn.teacherspayteachers.com/thumbitem/Robotics-STEAM-Maze-DIY-Coding-Mat-4300936-1553699607/original-4300936-1.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Coding Robots</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque vitae perspiciatis fugit magni alias a cupiditate eveniet blanditiis, tenetur consectetur!</p>
+                                </div>
+                            </div>
+
+                            <div class="card bgr3 rounded">
+                                <img class="card-img-top img-fluid" src="https://storage.googleapis.com/sproboticworks/master/assets/images/marketing/product-landing/community/13.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Maker Lab</h4>
+                                    <p class="card-text">This is a longer card with Lorem ipsum dolor sit. Lorem ipsum dolor sit amet. supporting text below as a natural lead to additional contentipsum. </p>
+                                </div>
+                            </div>
+                            <div class="card bgr3 rounded">
+                                <img class="card-img-top img-fluid" src="https://irp-cdn.multiscreensite.com/4eb3016f/dms3rep/multi/desktop/BRL%2BAboutUs-be7a7192.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Master in Robotics</h4>
+                                    <p class="card-text">This is a longer with supporting text below as a natural Lorem ipsum dolor. Lorem ipsum dolor sit.. This content
+                                        is a little bit longer.</p>
+                                </div>
+                            </div>
+
+
+
+                </div>
+              </div>
+
+
+
+              <!--footer starts-->
+
+                          <div class="container-fluid bgr1 pt-5">
+                            <div class="row">
+                              <div class="col-md-4 col-xl-5">
+                                <div class="pr-xl-4 my-4 py-3 pl-3 h5 space">
+
+                             <p>We are an award-winning creative Engineers, dedicated to the best result in web design, Backend services, business solutions, and other services.</p>
+
+                             <p class="h6">© Copyright Year 2018 Waves. All Rights Reserved.</p>
+                           </div>
+
+                              </div>
+                              <div class="col-md-4">
+                            <h5>Contacts</h5>
+
+                              <h6><b>Address: </b></h6>
+                              <h6>Usman marg, cantonment , Lucknow , Uttar Pradesh</h6>
+
+                              <h6><b>E-mail:</b></h6>
+                             <h6>pradeepyyadav23096@gmail.com</h6>
+
+                              <h6><b>Phones:</b></h6>
+                              <h6>+91 8726514762 or +91 7905122662</h6>
+                         </div>
+                          <div class="col-md-4 col-xl-3 py-3 h5 lead ">
+                            <h5 class="calibri h3"><u>Links</u></h5>
+                            <ul class="list-unstyled pt-3 space">
+                              <li><a class="text-white" href="#">About</a></li>
+                              <li><a class="text-white" href="#">Projects</a></li>
+                              <li><a class="text-white" href="#">Blog</a></li>
+                              <li><a class="text-white" href="#">Contacts</a></li>
+                              <li><a class="text-white" href="#">Pricing</a></li>
+                            </ul>
+                          </div>
+
+
+
+                            </div>
+
+                            <div class="row text-center bgr2 py-3">
+                          <div class="col"><a  href="#"><span><img src="http://asliceoflifegallery.com/v1site_images/icons/icon-facebook-3.png" alt="facebook"></span></a></div>
+                          <div class="col"><a  href="#"><span><img src="https://img.icons8.com/ios/2x/instagram-new-filled.png" alt="instagram"></span></a></div>
+                          <div class="col"><a  href="#"><span><img src="https://img.icons8.com/ios/2x/twitter-filled.png" alt="twitter"></span></a></div>
+                          <div class="col"><a  href="#"><span><img src="https://img.icons8.com/ios-filled/2x/google-logo.png" alt="google"></span></a></div>
+                        </div>
+                          </div>
+
+              <!--Ending of footer-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
